@@ -2,7 +2,7 @@ number = int(input("enter numver : "))
 
 
 def check_armstrong(num):
-    for i in range(1,10):
+    for num in range(1,10):
         return True
     length= len(str(number))
     sum = 0
