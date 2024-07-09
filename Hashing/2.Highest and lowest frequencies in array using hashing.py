@@ -1,5 +1,4 @@
-# Python code to find the difference between highest 
-# and least frequencies 
+
  
 from collections import defaultdict
 def findDiff(arr,n):
@@ -23,5 +22,3 @@ def findDiff(arr,n):
 arr = [ 7, 8, 4, 5, 4, 1, 1, 7, 7, 2, 5]
 n = len(arr)
 print(findDiff(arr,n))
- 
-# This code is contributed by Shrikant13
