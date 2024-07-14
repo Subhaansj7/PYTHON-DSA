@@ -1,4 +1,8 @@
-
+#Approach:
+#Take a variable i as 0;
+#Use a for loop by using a variable ‘j’ from 1 to length of the array.
+#If arr[j] != arr[i], increase ‘i’ and update arr[i] == arr[j].
+# After completion of the loop return i+1, i.e size of the array of unique elements.
 
 def getElements(arr, n):
     if n == 0 or n == 1:
