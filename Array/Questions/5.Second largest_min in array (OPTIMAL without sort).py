@@ -1,4 +1,18 @@
+#Approach:
+#We would require four variables: small,second_small, large, and second_large. Variable small and second_small are initialized to INT_MAX while large and second_large are initialized to INT_MIN.
+#
+#Second Smallest Algo:
 
+#If the current element is smaller than ‘small’, then we update second_small and small variables
+#Else if the current element is smaller than ‘second_small’ then we update the variable ‘second_small’
+#Once we traverse the entire array, we would find the second smallest element in the variable second_small.
+#Here’s a quick demonstration of the same.
+#Second Largest Algo:
+
+#If the current element is larger than ‘large’ then update second_large and large variables
+#Else if the current element is larger than ‘second_large’ then we update the variable second_large.
+#Once we traverse the entire array, we would find the second largest element in the variable second_large.
+#Here’s a quick demonstration of the same.///
 
 
 def secondSmallest(arr, n):
