@@ -1,3 +1,9 @@
+#Approach: 
+#Create a max variable and initialize it with arr[0].
+#Use a for loop and compare it with other elements of the array
+#If any element is greater than the max value, update max value with the element’s value
+#Print the max variable.
+
 def largestElement(arr,n):
     max=arr[0]
     for i in range(0,n):
