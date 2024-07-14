@@ -1,3 +1,13 @@
+#Approach: 
+#Sort the array in ascending order.
+#Print the (size of the array -1)th index.
+#DryRun: 
+#Before sorting: arr[] = {2,5,1,3,0};
+
+#After sorting: arr[] = {0,1,2,3,5};
+
+#Hence answer : arr[sizeofthearray-1] =5
+
 from typing import List
 def sortArr(arr: List[int]):
     arr.sort()
